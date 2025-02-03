@@ -1,19 +1,18 @@
 # LeetCode C Projects
 
-This repository contains C implementations of various LeetCode problems.  
-Each problem is stored in its own folder with a dedicated README explaining the approach.
+This repository contains C implementations of various LeetCode problems, organized into separate branches.
 
-## 📂 Projects Included
+## 📂 Project Branches
 
-| Problem Name | Description | Solution |
-|-------------|-------------|------------|
-| Two Sum (#1) | Find two numbers that add up to a given target. | [View](two-sum/) |
-| Palindrome Number (#9) | Check if an integer is a palindrome. | [View](palindrome-number/) |
+Each problem has its own branch:
+| Problem Name | Branch Name | Description |
+|-------------|------------|-------------|
+| Two Sum (#1) | `two-sum` | Find two numbers that add up to a given target. |
+| Palindrome Number (#9) | `palindrome-number` | Check if an integer is a palindrome. |
 
-## 🛠 Compilation & Execution
-
-To compile and run a solution, use the following commands:
+## 🛠 How to Switch to a Project
+To view or work on a specific problem, switch to its branch using:
 
 ```bash
-gcc two-sum/two_sum.c -o two_sum
-./two_sum
+git checkout two-sum  # Switch to Two Sum branch
+git checkout palindrome-number  # Switch to Palindrome Number branch
