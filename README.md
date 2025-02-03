@@ -1,1 +1,1 @@
-# c-basics-week1
+# c-basics
