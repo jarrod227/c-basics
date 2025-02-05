@@ -1,20 +1,52 @@
-# LeetCode C Projects
+# Palindrome Number Checker
 
-This repository contains C implementations of various LeetCode problems, organized into separate branches.
+## Description
 
-## 📂 Project Branches
+This project contains a C program that checks whether a given integer is a palindrome. A palindrome is a number that remains the same when its digits are reversed.
 
-Each problem has its own dedicated branch:
+## Features
 
-| Problem Name         | Branch Name        | Description                                    |
-|----------------------|-------------------|------------------------------------------------|
-| Two Sum (#1)        | `feature/two-sum`  | Find two numbers that add up to a given target. |
-| Palindrome Number (#9) | `feature/palindrome-number` | Check if an integer is a palindrome. |
+- Efficient algorithm that only processes half of the digits.
+- No extra space required apart from integer variables.
+- Handles edge cases like negative numbers and trailing zeros.
 
-## 🛠 How to Switch to a Project
+## Compilation Instructions
 
-To view or work on a specific problem, switch to its branch using:
+To compile the program using GCC, run:
 
-```bash
-git checkout feature/two-sum  # Switch to Two Sum branch
-git checkout feature/palindrome-number  # Switch to Palindrome Number branch
+```sh
+gcc PalindromeNumber.c -o PalindromeNumber
+```
+
+## Running the Program
+
+### On Linux/macOS:
+```sh
+./PalindromeNumber
+```
+
+### On Windows (Command Prompt):
+```cmd
+PalindromeNumber.exe
+```
+
+### On Windows (PowerShell):
+```powershell
+.\PalindromeNumber.exe
+```
+
+## Expected Output
+
+- If the number is a palindrome:
+  ```
+  x = 142878241 is Palindrome
+  ```
+- If the number is not a palindrome:
+  ```
+  x = 12345 is not Palindrome
+  ```
+
+## Complexity Analysis
+
+- **Time Complexity**: \(O(\log_{10} N)\) – Only half of the digits are processed.
+- **Space Complexity**: \(O(1)\) – No additional memory is used.
