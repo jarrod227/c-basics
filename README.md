@@ -48,5 +48,5 @@ PalindromeNumber.exe
 
 ## Complexity Analysis
 
-- **Time Complexity**: \(O(\log_{10} N)\) – Only half of the digits are processed.
+- **Time Complexity**: $$\(O(\log_{10} N)\) $$– Only half of the digits are processed.
 - **Space Complexity**: \(O(1)\) – No additional memory is used.
